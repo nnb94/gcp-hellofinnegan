@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello_world():
     """Example Hello World route."""
-    name = os.environ.get("NAME", "Finnegan broski")
+    name = os.environ.get("NAME", "Finnegan brosk")
     return f"Hello {name}!"
 
 
